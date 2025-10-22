@@ -7,7 +7,7 @@ public class Warlock extends CianniCharacterExam {
         super(name, 100, 120, 60);
     }
 
-    // 🔮 SHADOW BOLT (costs 30 MP)
+    //  SHADOW BOLT (costs 30 MP)
     @Override
     public void primary(CianniCharacterExam target) {
         if (mp >= 30) {
@@ -19,7 +19,7 @@ public class Warlock extends CianniCharacterExam {
         }
     }
 
-    // 💀 HEALTHSTONE (costs 40 MP, heals HP and regenerates MP & SP)
+    //  HEALTHSTONE (costs 40 MP, heals HP and regenerates MP & SP)
     @Override
     public void secondary(CianniCharacterExam target) {
         if (mp >= 40) {
@@ -44,7 +44,7 @@ public class Warlock extends CianniCharacterExam {
         }
     }
 
-    // ⚔️ Basic Attack (costs SP)
+    // Basic Attack (costs SP)
     @Override
     public void attack(CianniCharacterExam target) {
         if (sp < 2) {
