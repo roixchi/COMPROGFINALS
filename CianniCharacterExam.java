@@ -29,7 +29,7 @@ public abstract class CianniCharacterExam {
         }
     }
 
-    // 🔹 Basic Attack: costs 2 SP
+    //  Basic Attack: costs 2 SP
     public void attack(CianniCharacterExam target) {
         if (sp < 2) {
             System.out.println(name + " tried to attack, but doesn’t have enough Stamina (needs 2 SP)!");
@@ -47,7 +47,7 @@ public abstract class CianniCharacterExam {
         System.out.println(name + " attacks " + target.name + " for " + damage + " damage!");
     }
 
-    // 🔹 Defend: costs 3 SP
+    //  Defend: costs 3 SP
     public void defend() {
         if (sp < 3) {
             System.out.println(name + " tried to defend, but doesn’t have enough Stamina (needs 3 SP)!");
